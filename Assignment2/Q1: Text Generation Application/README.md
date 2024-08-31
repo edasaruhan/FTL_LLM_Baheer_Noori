@@ -20,5 +20,4 @@ Before you begin, ensure you have met the following requirements:
 ### 1. Clone the Repository
 Begin by cloning the repository to your local machine:
 
-```bash
-git clone https://github.com/your-repo/text-generation-app.git
+
