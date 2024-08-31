@@ -1,0 +1,8 @@
+Flask==2.3.2                  # Web framework for building the application
+flask-bootstrap==3.3.7.1      # Bootstrap integration for Flask for improved UI
+transformers==4.31.0          # Hugging Face Transformers library for model and tokenizer
+torch==2.0.1                  # PyTorch, required by the Transformers library
+reportlab==3.6.12             # Library for generating PDF reports
+pandas==2.0.3                 # Data manipulation and analysis library, useful for handling datasets
+Jinja2==3.1.2                 # Template engine for Flask
+gunicorn==21.2.0              # WSGI HTTP server, useful for deploying the application
