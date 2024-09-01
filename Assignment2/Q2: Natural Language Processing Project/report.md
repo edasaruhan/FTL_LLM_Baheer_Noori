@@ -7,7 +7,9 @@ This project focuses on the exploration and comparison of different text embeddi
 ## Methodology
 
 ### Data Collection
-The dataset used for this project is related to climate change, comprising textual descriptions and corresponding labels indicating whether the text is positive or negative towards climate action.
+The dataset used for this project is the **Climate Fever Dataset** (`climate_fever_dataset.csv`). This dataset comprises textual descriptions related to climate change, along with corresponding labels indicating whether the text is positive or negative towards climate action. The dataset includes the following columns:
+- `text_column`: Contains the textual data.
+- `label_column`: Contains the labels (1 for positive sentiment, 0 for negative sentiment).
 
 ### Text Embeddings
 1. **Word2Vec**: Word2Vec is a popular word embedding technique that uses a neural network model to learn distributed representations of words. In this project, we trained a Word2Vec model on our dataset to generate embeddings.
@@ -64,4 +66,3 @@ This project explored the application of Word2Vec, GloVe, and BERT embeddings to
 ## Future Work
 
 Future work could involve experimenting with other advanced embeddings, such as GPT-based models, and applying them to different NLP tasks like question answering or machine translation. Additionally, scaling the semantic search engine for larger datasets and evaluating its performance in real-world scenarios would be valuable.
-
